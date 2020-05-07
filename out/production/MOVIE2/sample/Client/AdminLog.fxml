@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Windows.AdminLog">
+    <children>
+
+        <AnchorPane prefHeight="61.0" prefWidth="700.0" style="-fx-background-color: #404040;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <children>
+                <Label cache="true" layoutX="21.0" layoutY="14.0" prefHeight="36.0" prefWidth="246.0" text="MovieAssistent">
+                    <font>
+                        <Font name="Bauhaus 93" size="35.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="S_RESIZE" />
+                    </cursor>
+                    <textFill>
+                        <LinearGradient endX="0.8778625663000209" endY="0.9503816812093021" proportional="false" startX="0.6450381442790722" startY="0.54580160679708">
+                            <stops>
+                                <Stop color="WHITE" />
+                                <Stop color="BLACK" offset="0.9961832061068702" />
+                        <Stop color="BLACK" offset="1.0" />
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <PasswordField fx:id="TextfiltPass" layoutX="197.0" layoutY="257.0" prefHeight="36.0" prefWidth="276.0" />
+              <Label layoutX="141.0" layoutY="112.0" text="Authorization Admin" textAlignment="CENTER" textFill="WHITE">
+                  <font>
+                      <Font name="Berlin Sans FB Demi Bold" size="41.0" />
+                  </font>
+              </Label>
+            </children>
+        </AnchorPane>
+        <TextField fx:id="TextfiltLogin" layoutX="196.0" layoutY="200.0" prefHeight="36.0" prefWidth="276.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button fx:id="ButtnLogin" defaultButton="true" layoutX="308.0" layoutY="323.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="88.0" text="signe up">
+            <font>
+                <Font name="Berlin Sans FB" size="17.0" />
+            </font>
+        </Button>
+        <Label layoutX="123.0" layoutY="210.0" text="login" textFill="WHITE">
+            <font>
+                <Font name="Berlin Sans FB" size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="75.0" layoutY="258.0" text="password" textFill="WHITE">
+            <font>
+                <Font name="Berlin Sans FB" size="26.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

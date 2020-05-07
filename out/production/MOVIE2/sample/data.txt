@@ -1,0 +1,5 @@
+com.mysql.jdbc.Driver
+MovieAss
+3306
+jdbc:mysql://localhost:
+root
